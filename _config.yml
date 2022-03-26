@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: BrainFuck Textbook
-description: A textbook for programming in BrainFuck
+description: An open-source textbook for programming in BrainFuck
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://brainfuck-textbook.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 

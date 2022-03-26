@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-nav_order: 0
+nav_order: -1
 description: "Homepage of the Brainfuck language page."
 permalink: /
 ---
@@ -23,7 +23,7 @@ Everyone who comes across Brainfuck finds the name lewd or somewhat entertaining
 > Let's be real, computer programmers are pretty starved of intimacy. You need this.
 
 **To show off at nerd parties**
-> BrainFuck is a pretty good party trick to show off.
+> BrainFuck is a pretty good party trick to show off at nerd parties. Why greet people with "Hey there!" when you could say `++++++++++[>+>+++>+++++++>++++++++++<<<<-]>>>++.>+.++++++++++++++++++++.<<++.>>-----.------------.---.+++++++++++++.-------------.<<+.`? Why apologize when you accidentally spill a drink on someone's expensive shirt when you could say `++++++++++[>+>+++>+++++++>++++++++++<<<<-]>>>+++.<++.>>.+++++.-----.<<.>>++++++++++++++++.------------.-------.+++++++++++++++++++.<<.>>-----.-.<<.>>++.+++++.---.--.-.++++.--------------.`?
 
 **To think critically about the nature of computation**
 > Higher-level languages allow us to abstract computation in a way closer to human syntactic and semantic systems. This is, of course, extraordinarily helpful for feasible development of complex programs. However, programming in Brainfuck forces humans to understand the low-level nature of computation more closely - for us to truly understand the semantics of raw computation. Don Knuth once noted (as a twist on the popular aphorism) that to truly understand something, one must teach a computer to do it. Translating concepts that come naturally - either to our complex minds or in higher-level languages - into Brainfuck forces us to examine our epistemological assumptions and biases, and makes us better programmers and thinkers.
@@ -35,10 +35,12 @@ This book is, to our knowledge, the first open-source project dedicated towards 
 
 | Chapter | Description |
 | --- | --- |
-| [Chapter 1](/docs/ch1) | *Lorem ipsum dolor sit amet.* |
-| [Chapter 2](/docs/ch2) | *Lorem ipsum dolor sit amet.* |
-| [Chapter 3](/docs/ch3) | *Lorem ipsum dolor sit amet.* |
-| [Chapter 4](/docs/ch4) | *Lorem ipsum dolor sit amet.* |
-| [Chapter 5](/docs/ch5) | *Lorem ipsum dolor sit amet.* |
-| [Chapter 6](/docs/ch6) | *Lorem ipsum dolor sit amet.* |
+| [Chapter 0](/docs/ch0) | *Title.* Read about the many different options to get set up with your Brainfuck environment. |
+| [Chapter 1](/docs/ch1) | *Brainfuck Syntax and Function*. Learn the eight operators and build a simple 'parrot' program. |
+| [Chapter 2](/docs/ch2) | *Numeric Manipulation.* |
+| [Chapter 3](/docs/ch3) | *Text Manipulation.* |
+| [Chapter 4](/docs/ch4) | *Elementary Logic.* |
+| [Chapter 5](/docs/ch5) | *...?* |
+| [Chapter 6](/docs/ch6) | *...?* |
+| [Chapter x](/docs/chx) | *Brainfuck Quines.* |
 

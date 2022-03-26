@@ -10,5 +10,5 @@ permalink: /ch1
 # Chapter 1
 {: .fs-9 }
 
-Simple Syntax and Programs
+Brainfuck Syntax and Function
 {: .fs-6 .fw-300 }

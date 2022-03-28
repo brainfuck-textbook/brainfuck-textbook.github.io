@@ -12,3 +12,5 @@ permalink: /ch1
 
 Brainfuck Syntax and Function
 {: .fs-6 .fw-300 }
+
+This chapter covers the functionality and usage of the eight commands in Brainfuck: `+`, `-`, `<`, `>`, `.`, `,`, `[`, and `]`. Users will print `Hello World!` with relative syntactic efficiency (a nontrivial task in Brainfuck) and create a 'parrot program' that repeats/parrots user input.

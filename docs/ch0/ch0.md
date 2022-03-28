@@ -8,7 +8,7 @@ permalink: /ch0
 ---
 
 # Chapter 0
-{: .fs-9}{: no_toc}
+{: .fs-9 .no_toc}
 
 Setting Up Brainfuck
 {: .fs-6 .fw-300 }
@@ -352,7 +352,7 @@ void interpret(environment &env)
 ```
 
 Brainfuck (a Brainfuck compiler written in Brainfuck):
-```bf
+```
 From https://github.com/canoon/bfbf/blob/master/bf.bf
 
 [-]+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>[-]<<<<<<<<<<<<<<<<<<<<<<<

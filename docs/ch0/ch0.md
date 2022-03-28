@@ -44,13 +44,25 @@ repl.it provides a set of helpful code 'recipes', which can be accessed by clear
 
 ## 0.2: Brainfuck Visualizers
 
-Developing in Brainfuck can be significantly easier if code or code blocks are created with a visual reference of the digital tape being manipulated. There are a number of great Brainfuck visualizers, but [this one](https://brainfuck-visualizer.herokuapp.com/){:target="_blank"} is probably one of the best. Users can enter Brainfuck code in a natural editor and the visualizer will highlight how your code manipulates values in the tape at each timestep.
+Developing in Brainfuck can be significantly easier if code or code blocks are created with a visual reference of the digital tape being manipulated. There are a number of great Brainfuck visualizers, but [this one](https://brainfuck-visualizer.herokuapp.com/){:target="_blank"} and [this one](https://minond.xyz/brainfuck/){:target="_blank"} are probably some of the best. Users can enter Brainfuck code in a natural editor and the visualizers will highlight how your code manipulates values in the tape at each timestep.
 
 <center>
 <img src="https://user-images.githubusercontent.com/73039742/160297191-861ed5e0-e49b-4e10-9af4-e850d2d745ef.png" width="60%" />
 </center>
 
-## 0.3: DIY Interpreter
+## 0.2: Online Interpreters
+There are a number of online Brainfuck interpreters that give you instant output (as opposed to visualizing the output with a time delay):
+- [TutorialsPoint CodingGround](https://www.tutorialspoint.com/execute_brainfk_online.php){:target="_blank"}
+- [ideone](https://ideone.com/l/brainfuck){:target="_blank"}
+- [dcode](https://www.dcode.fr/brainfuck-language){:target="_blank"}
+- [sange.fi](https://sange.fi/esoteric/brainfuck/impl/interp/i.html){:target="_blank"}
+
+## 0.3: Offline Interpreters
+There is also software available to run Brainfuck offline:
+- [Brainfuck Developer](http://4mhz.de/bfdev.html){:target="_blank"}
+- [PsHegger Brainfuck Interpreter](https://brainfuck.soft112.com/){:target="_blank"}
+
+## 0.4: DIY Interpreter
 
 Brainfuck is perhaps one of the easiest languages to create an interpreter for. A programmer with intermediate experience can create an interpreter for Brainfuck code very quickly. If you're feeling up to the task, it is not difficult to do it yourself. Below are some sample interpreters that people have written in different languages.
 

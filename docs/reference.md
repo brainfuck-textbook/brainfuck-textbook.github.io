@@ -29,6 +29,8 @@ Helpful resources to keep on hand when programming in Brainfuck
 
 ## ASCII Table
 
+*Symbols before 32 are not printable, but rather represent unprintable control codes used to control peripherals like printers. Codes between 32 and 127 are commonly used printable characters. Codes 128 through 255 are extended ASCII codes for Windows-1252, a superset of ISO 8859-1/ISO Latin-1.*
+
 | Code | Symbol  | Code | Symbol | Code | Symbol |
 | ---- | ---     | ---  | ---    | ---  | ---    |
 | 32   | (space) | 108  | l      | 184  | ¸      |
@@ -50,7 +52,7 @@ Helpful resources to keep on hand when programming in Brainfuck
 | 48   | 0       | 124  | \|     | 200  | È      |
 | 49   | 1       | 125  | }      | 201  | É      |
 | 50   | 2       | 126  | ~      | 202  | Ê      |
-| 51   | 3       | 127  |        | 203  | Ë      |
+| 51   | 3       | 127  | DEL    | 203  | Ë      |
 | 52   | 4       | 128  | €      | 204  | Ì      |
 | 53   | 5       | 129  |        | 205  | Í      |
 | 54   | 6       | 130  | ‚      | 206  | Î      |
@@ -108,6 +110,31 @@ Helpful resources to keep on hand when programming in Brainfuck
 | 106  | j       | 182  | ¶      |      |        |
 | 107  | k       | 183  | ·      |      |        |
 
-107   
+---
 
-break after 32 + 75
+## Common Text Routines
+
+### Hello World
+Prints `Hello World`.
+```
+>++++++++[<+++++++++>-]<.
+>++++[<+++++++>-]<+.
++++++++..
++++.
+>>++++++[<+++++++>-]<++.
+------------.
+>++++++[<+++++++++>-]<+.
+<.
++++.
+------.
+--------.
+>>>++++[<++++++++>-]<+.
+```
+
+---
+
+## Conditionals
+
+---
+
+## Nifty Algorithms

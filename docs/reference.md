@@ -3,7 +3,6 @@ layout: default
 title: Reference
 nav_order: 1000
 has_children: false
-parent: Reference
 description: "Helpful resources to keep on hand when programming in Brainfuck."
 permalink: /reference
 ---
